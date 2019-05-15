@@ -19,4 +19,21 @@ let arr: number[] = [1, 2];
 
 let x: [string, number];
 
-x=['test',2]
+x = ['ÎÄ×Ö', 2]
+
+let y: any = 1;
+y = 'test';
+y = true;
+
+let changeData: number | null | undefined;
+changeData = 87;
+changeData = null;
+changeData = undefined;
+
+
+
+var p: string;
+
+var q: string;
+
+//const q: string; is a warring

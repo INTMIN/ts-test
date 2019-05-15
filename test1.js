@@ -1,3 +1,4 @@
+"use strict";
 //��һ��С���ԣ�����ts�﷨����������
 var hello = 'hello typescript';
 var firstDemo = hello;
@@ -15,4 +16,14 @@ person.name();
 var binaryLiteral = 10;
 var arr = [1, 2];
 var x;
-x = ['test', 2];
+x = ['����', 2];
+var y = 1;
+y = 'test';
+y = true;
+var changeData;
+changeData = 87;
+changeData = null;
+changeData = undefined;
+var p;
+var q;
+//const q: string; is a warring

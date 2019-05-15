@@ -6,3 +6,4 @@
 *.config
 *.suo
 /.vs/slnx.sqlite-journal
+/.vs/VSWorkspaceState.json
