@@ -37,3 +37,18 @@ var p: string;
 var q: string;
 
 //const q: string; is a warring
+
+var global_things = 'min';
+class Numbers {
+	num_val = 12;
+	static sval = 10;
+	storeNum(): void {
+		var local_num = 14;
+	}
+}
+
+console.log("全局变量为：" + global_things)
+
+console.log(Numbers.sval)
+var obj = new Numbers()
+console.log("类变量"+obj.num_val)

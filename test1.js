@@ -27,3 +27,18 @@ changeData = undefined;
 var p;
 var q;
 //const q: string; is a warring
+var global_things = 'min';
+var Numbers = /** @class */ (function () {
+    function Numbers() {
+        this.num_val = 12;
+    }
+    Numbers.prototype.storeNum = function () {
+        var local_num = 14;
+    };
+    Numbers.sval = 10;
+    return Numbers;
+}());
+console.log("ȫ�ֱ���Ϊ��" + global_things);
+console.log(Numbers.sval);
+var obj = new Numbers();
+console.log("�����" + obj.num_val);
