@@ -51,4 +51,6 @@ console.log("全局变量为：" + global_things)
 
 console.log(Numbers.sval)
 var obj = new Numbers()
-console.log("类变量"+obj.num_val)
+console.log("类变量" + obj.num_val)
+
+//测试数据

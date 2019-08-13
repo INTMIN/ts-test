@@ -1,4 +1,3 @@
-"use strict";
 //��һ��С���ԣ�����ts�﷨����������
 var hello = 'hello typescript';
 var firstDemo = hello;
@@ -42,3 +41,4 @@ console.log("ȫ�ֱ���Ϊ��" + global_things);
 console.log(Numbers.sval);
 var obj = new Numbers();
 console.log("�����" + obj.num_val);
+//��������
